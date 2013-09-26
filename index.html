@@ -1,0 +1,675 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Dart @ OverTheAir</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Chris Buckett" />
+    <link href="impress-demo-londonajax.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <link href="prettify/prettify.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="prettify/prettify.js"></script>
+</head>
+<body class="impress-not-supported">
+<script src="jquery-1.9.1.min.js"></script>
+<div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+ <!-- Define auto transitions -->
+  
+<div id="impress">
+  <!-- Slide 1: Welcome -->
+  <div id="start" class="step slide border hideinactive">
+      <img class="left logo" src="overtheair.png"/>
+      <img class="right logo" src="dartbanner.jpg"/>
+      <div class="center" style="margin-top:150px;">
+      <h3>Building Complex Web Apps with</h3><h2>Dart and Web Components</h2><br/>
+      <p>Over the Air, September 2013</p><br />
+      <h4>Chris Buckett</h4>
+      <br/>
+      <p style="color:blue">@chrisbuckett</p>
+      <p style="color:blue">#dartlang #ota13</p>
+      </div>
+      <img class="left logo"  style="margin-top:-120px" src="dartinaction.png" height="200px"/>
+      <img class="right logo" style="margin-top:-80px" src="gde.png"/>
+      
+  </div>
+
+
+  
+
+
+<!--  data-x="-9000" data-y="0" data-rotate-x="0" -->
+  <!-- Slide 2: We build enterprise -->
+  <!-- I work for Entity, and we build enterprise software -->
+  <!--<div class="step slide border hideinactive">
+    <q class="center">I work for a company called Entity,<br/> and we solve data problems....</q>  
+    <br /><br/>
+    <h3 class="center">...this often involves building software,<br/> delivered as a web app.</h3>  
+    <br/>
+    <img class="center logo" style="padding-top:30px" src="entity_logo.png"/>
+    <h3>www.entity.co.uk</h3>
+  </div>-->
+
+  <div class="step slide border hideinactive">  
+    <div class="center"><q>Dart addresses two issues:</q></div>
+    <br />
+    <br />
+    <div class="left"><h3 style='color:blue; font-size:60px;'>Performance</h3></div>
+    <div class="center"><h3 style='color:blue; font-size:60px;'>&amp;</h3></div>
+    <div class="right"><h3 style='color:blue; font-size:60px;'>Complexity</h3></div>
+    <q class="center">in web applications</q>
+  </div>  
+
+  <div class="step slide border hideinactive">  
+    <h2>Performance</h2>
+    <br />
+    <img src='perf.png' class='center'>
+    <small>www.dartlang.org/performance/</small>
+  </div>  
+
+  <div class="step slide border hideinactive">  
+    <h2>Complexity</h2>
+    <br />
+    <p>As developers, we need a language that:</p>
+    <q style='color:blue' class='center'>Lets us communicate intent to our fellow developer</q>
+  </div>
+  
+  <div class="step slide border hideinactive">  
+    <h2>A Common JavaScript API</h2>
+    <pre class="prettyprint lang-javascript" style="border:none;">
+// Example Usage
+// var client_args = {
+//     port: 61613,
+//     host: 'localhost',
+//     login: 'guest',
+//     passcode: 'guest',
+// };
+//
+// var client = new Client(client_args);
+function Client(args) {
+  ...snip...
+  if (args.debug) ...?
+}
+  </pre>
+  <small>Comments for the how, but often get out of sync.</small>
+  </div>
+
+
+  <div class="step slide border hideinactive">  
+    <h2>A better model...?</h2>
+    <br />
+    <br />
+    <pre class="prettyprint lang-dart" style="border:none; margin-top:-70px">
+class ClientArgs {
+  int port;
+  String host;
+  bool debug = false;
+  String login;
+  String passcode;
+}
+
+// Gets a client from the cache or 
+// creates a new client if required
+Client getClient(ClientArgs args) {
+  ...snip...
+}
+    </pre>
+<small style='margin-top:-30px; float:left'>Comments for describing the what and why, <br />code describes the how.</small>
+  </div>  
+  
+
+  <!-- Slide 3a: Multiple Teams -->
+  <!-- there are constraints when building enterprise software -->
+  <!--<div id="step3a" class="step slide border" data-x="-1000" data-y="800"> 
+    <h1>Constraints</h1>
+    <ul>
+      <li>Multiple Teams</li>
+    </ul>
+  </div>
+
+  <div id="step3b" class="step slide border" data-x="-1000" data-y="800"> 
+    <h1>Constraints</h1>
+    <ul>
+      <li>Multiple Teams</li>
+      <li>Modular Design</li>    
+    </ul>
+
+
+  </div>
+
+  <div id="step3c" class="step slide border" data-x="-1000" data-y="800"> 
+    <h1>Constraints</h1>
+    <ul>
+      <li>Multiple Teams</li>
+      <li>Modular Design</li>    
+      <li>Frameworks</li>
+    </ul>
+  </div>
+
+  <div id="step3d" class="step slide border" data-x="-1000" data-y="800"> 
+    <h1>Constraints</h1>
+    <ul>
+      <li>Multiple Teams</li>
+      <li>Modular Design</li>    
+      <li>Frameworks</li>
+      <li>Longevity</li>
+    </ul>
+  </div>-->
+
+  <!-- Slide 4: common problem: -->
+  
+  <!-- slide 6: communication2 -->
+  <div class="step slide border hideinactive">
+     <h2 class="center">Communication...</h2>
+     <img class="center logo" src="img/comm_through_code.png" height="500"/>
+  </div>
+
+  <!-- Slide 6: problem solved-->
+  <div class="step slide border hideinactive">
+      <h3>Problem Solved?</h3>
+      <q><img src="img/tick.png" style="vertical-align:middle;">Server-side</q>
+      <q><img src="img/tick.png" style="vertical-align:middle;">Thick client</q>
+      <q><span style="font-size:70px; font-weight:bold; color:black; margin-left:30px;">?</span>&nbsp;&nbsp; In the browser</q>
+  </div>
+
+  <!-- Slide 7: GWT / Java -->
+  <div class="step slide border hideinactive">
+    <h3>Java / GWT (Google Web Toolkit)</h3>
+    <br/>
+    <pre class="prettyprint lang-java" style="border:none;">
+/**
+ * @param person The person to greet
+ * @param greeting The greeting
+ * @return The personalized message
+ */
+public String greet(
+    Person person, String greeting) {
+  String result = greeting +" "+ person.name;
+  return result;
+}
+    </pre>
+  </div>
+
+  <!-- Slide 8: Closure compiler -->
+    <div class="step slide border hideinactive">
+    <h3>JavaScript<span style="color:rgba(0,0,0,0);"> + Annotations</span></h3>
+    <pre class="prettyprint lang-js" style="border:none;">
+
+
+
+
+
+
+var greet = function(person, greeting) {
+
+  var result = greeting +" "+ person.name;
+  return result;
+};
+    </pre>
+  </div>
+
+  <div class="step slide border hideinactive">
+    <h3>JavaScript + Annotations</h3>
+    <pre class="prettyprint lang-js" style="border:none;">
+/**
+ * @param {foo.Person} person 
+ *                 The person to greet
+ * @param {string} greeting The greeting
+ * @return {string} The personalized message
+ */
+var greet = function(person, greeting) {
+  // @type {string}
+  var result = greeting +" "+ person.name;
+  return result;
+};
+    </pre>
+  </div>
+
+
+
+  <!-- Slide 9: Meet in the middle? -->
+  <div class="step slide border hideinactive">
+    <h3>It is possible for these two worlds to meet...</h3>
+  </div>  
+
+  <!-- Slide 16b: Communicating intent through code -->  
+<div class="step slide border hideinactive">
+      <h3>It is possible for these two worlds to meet...</h3>
+      <br/>
+    <pre class="prettyprint lang-js" style="border:none; margin-left:-40px;">
+// javascript
+function greet(person, greeting) {
+  var result = greeting +" "+ person.name;
+  return result;
+}
+    </pre>
+    <pre class="prettyprint lang-dart" style="border:none; margin-left:-40px;">
+// dart 
+String greet(Person person, String greeting) {
+  var result = greeting +" "+ person.name;
+  return result;
+}
+    </pre>
+  </div>
+
+  <!-- Slide 11b What is Dart -->  
+  <div id="whatisdart2" class="step slide border hideinactive">
+     <h1 class="left">So, what is Dart?</h1>
+     <img class="right logo" src="dartbanner.jpg"/><br />
+     <img class="center logo" src="img/whatisdart1.png">
+  </div>
+
+  <!-- Slide 12: Class based -->
+  <div class="step slide border hideinactive">
+     <h3>Familiar</h3>
+     <p class="center">Unsurprising Class Based OOP</p>
+     <pre class="prettyprint lang-dart" style="border:none">
+class Person {
+  String name;
+}
+
+class Customer extends Person {
+  int accountNo;
+  Address address = new Address();
+}      
+
+class Address {
+  List&lt;String&gt; lines = new List&lt;String&gt;(4);
+  String postcode;
+}
+     </pre>
+    </div>
+
+  <!-- Slide 14: Functional -->
+  <div class="step slide border hideinactive">
+     <h3>Functional</h3>
+     <p class="center">Functions are objects</p><br/>
+     <pre class="prettyprint lang-dart" style="border:none">
+greet(person, greeting) {
+  var result = greeting + " " + person.name;
+  return result;
+}
+
+// store greet() in another variable
+var myFunc = greet;
+var me = new Person()..name="Chris";
+myFunc(me,"Hello");
+     </pre>
+  </div>
+
+<!-- Slide 13: Optionally Typed -->
+  <div class="step slide border hideinactive">
+     <h3>Optionally Typed</h3>
+     <p class="center">Add type information as needed</p>
+     <pre class="prettyprint lang-dart" style="border:none; font-size:30px">
+class Person {
+  var name;
+}
+
+class Customer extends Person {
+  var accountNo;
+  var address = new Address();
+}      
+
+class Address {
+  var lines = new List(4);
+  var postcode;
+}
+     </pre>
+  </div>
+
+<div class="step slide border hideinactive">
+     <h3>Optionally Typed</h3>
+     <p class="center">Add type information as needed</p>
+     <pre class="prettyprint lang-dart" style="border:none; font-size:30px">
+class Person {
+  String name;
+}
+
+class Customer extends Person {
+  int accountNo;
+  Address address = new Address();
+}      
+
+class Address {
+  List&lt;String&gt; lines = new List&lt;String&gt;(4);
+  String postcode;
+}
+     </pre>
+    </div>
+
+  
+
+  <!-- Slide 16: Communicating intent with code -->
+  <div class="step slide border hideinactive">
+      <h1>How does this help us?</h1>
+      <p>Communicating intent through code, to tools and humans</p>
+      <br/>
+    <pre class="prettyprint lang-js" style="border:none; margin-left:-40px;">
+// javascript
+function greet(person, greeting) {
+  var result = greeting +" "+ person.name;
+  return result;
+}
+    </pre>
+&nbsp;
+    <pre class="prettyprint lang-js" style="border:none; margin-left:-40px;">
+// dart -   no type information
+greet(person, greeting) {
+  var result = greeting +" "+ person.name;
+  return result;
+}
+    </pre>
+  </div>
+
+<!-- Slide 16b: Communicating intent through code -->  
+<div class="step slide border hideinactive">
+      <h1>How does this help us?</h1>
+      <p>Communicating intent through code, to humans and tools</p>
+      <br/>
+    <pre class="prettyprint lang-js" style="border:none; margin-left:-40px;">
+// javascript
+function greet(person, greeting) {
+  var result = greeting +" "+ person.name;
+  return result;
+}
+    </pre>
+
+<p>Use <strong>type annotations</strong> on the <strong>surface area</strong> of your code</p>
+    <pre class="prettyprint lang-dart" style="border:none; margin-left:-40px;">
+// dart - with type information
+String greet(Person person, String greeting) {
+  var result = greeting +" "+ person.name;
+  return result;
+}
+    </pre>
+  </div>
+
+
+<!-- Slide 15: Also Has... -->
+  <div class="step slide border hideinactive">
+     <h1 class="left">What is Dart...</h1>
+     <img class="right logo" src="dartbanner.jpg"/><br />
+     <q>The Dart language also has...</q>
+     <ul >
+        <li class="smaller">Interfaces <code>class Person implements Serializable</code></li>
+        <li class="smaller">Privacy <code>String _iAmPrivate;</code></li>
+        <li class="smaller">Futures <code>doAsync().then((result) { ... } );</code></li>
+        <li class="smaller">Lexical scope (sane <code>this</code>)</li>
+        <li class="smaller">Generics <code>new Map&lt;String,Person&gt;();</code></li>
+        <li class="smaller">Concurrency <code>port.send("Hello");</code></li>
+        <li class="smaller">Reflection <code>instance.invoke('sayHello',[...]);</li>
+     </ul>
+  </div>
+
+
+<!-- Slide 17: What do you get out of the box? -->
+
+<!-- Slide 17b -->
+<div class="step slide border hideinactive">
+  <h1>What else does Dart have?</h1>
+  <br />
+  <img class="center logo" src="img/whatisdart2.png">
+</div>
+
+<!-- Slide 18 -->
+<div class="step slide border hideinactive">
+  <h3>Libraries and Packages</h3>
+  <br />
+  <br />
+  <pre class="prettyprint lang-dart">
+library model_objects;
+
+// Import libraries &amp; packages
+import 'dart:json';         
+import 'package:logger/logger.dart';
+
+// Split library into multiple files
+part 'src/customer.dart';
+part 'src/order.dart';
+
+//... other functions, classes etc ...
+  </pre>
+</div>
+
+<!-- Slide 19 -->
+<div class="step slide border hideinactive">
+  <h3>Built-in libraries</h3><br/>
+  <pre class="prettyprint lang-dart" style="border:none; margin-left:-40px;">
+import 'dart:html';
+
+main() {
+  var msg = query('#msg');  // use css selectors
+
+  // create elements
+  var btn = new ButtonElement(); 
+  btn.text = 'Click me!';
+  
+  // use callback functions
+  btn.onClick.listen((e) => msg.text = 'Dart!'); 
+
+  document.body.children.add(btn);
+}
+  </pre>
+
+</div>
+
+<!-- Slide 20 -->
+<div class="step slide border hideinactive">
+  <h3>Built-in libraries</h3><br/>
+  <pre class="prettyprint lang-dart" style="font-size:30px; border:none; margin-left:-40px;">
+import 'dart:io';
+
+main() {
+  HttpServer.bind("127.0.0.1", 8888).then((svr) {
+    svr.listen((req) {
+      req.response.write("Hello World\n");
+      req.response.close();
+    });
+
+    print("Listening at http://127.0.0.1:8888/");
+  });
+}
+  </pre>
+</div>
+
+
+<!-- Slide 21 -->
+<div class="step slide border hideinactive">
+  <h3>Built-in Libraries</h3>
+  <img style="float:right; padding-top: 40px; padding-right:30px;" src="img/sdk.png">
+
+  <br />
+  <ul style="float:left">
+    <li><strong>dart:html</strong></li>
+    <li><strong>dart:io</strong></li>
+    <li>dart:unittest</li>
+    <li>dart:indexed_db</li>
+    <li>dart:web_gl</li>
+    <li>dart:web_audio</li>
+    <li>lots more ...</li>
+  </ul>
+  
+</div>
+
+<!-- Slide 22 -->
+<div class="step slide border hideinactive">
+  <h3>Pub: Package Manager</h3>
+  <br/>
+  <pre style="prettyprint">
+name: my_service
+description: My App Service
+version: 
+dependencies:
+  model_objects:
+    hosted:
+      url: http://my-package-server.com
+  config:
+    git: git://github.com/chrisbu/config.git
+    version: 1.2
+dev_dependencies:
+  unittest: any
+  </pre>  
+</div>
+
+<!-- Slide 23: -->
+<div class="step slide border hideinactive">
+  <q>Built-in libraries help <strong>reduce fragmentation</strong>.</q>
+  <q>Teams can <strong>work together</strong>, sharing <strong>versioned packages</strong>.<q>
+</div>
+
+
+<!-- Slide 24b: In the box: Tools -->
+<div class="step slide border hideinactive">
+  <h1>What else is in the box?</h1>
+  <br />
+  <img class="center logo" src="img/whatisdart3.png">
+</div>
+
+<!-- Slide 24b -->
+<div id="tools8" class="step slide border hideinactive">
+  <q>Communicating intent through code, to humans <strong>and tools</strong>.</q>
+  <br />
+  <ul style="float:left; color:blue">
+    <li>Dart Editor</li>
+    <li>Dartium</li>
+    <li>dart2js</li>
+  </ul>
+  <ul style="float:right; color:blue; padding-right:100px;">
+    <li>Dart Debugger</li>
+    <li>Dart Analyzer</li>
+    <li>DartDoc</li>
+  </ul>
+</div>
+
+<!-- Slide 25: Web UI -->
+<div class="step slide border hideinactive">
+  <h1>Polymer.dart framework</h1>
+  <q style="margin-top:30px;">Dart's implementation of Polymer<q>
+    <h2 style="margin-top:-50px;">Web Components</h2>
+    <h2>Model Driven Views</h2>
+    <h2>Shadow DOM</h2>    
+  <i class="right">In all modern browsers</i><br/><br />
+</div>
+
+<div class="step slide border hideinactive">
+  <h2>TodoMVC</h2>
+
+<pre class="prettyprint lang-html" style="font-size:30px; border:none; margin-left:-40px;">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;link rel="import" href="app.html"&gt; &lt;!--Import--&gt;
+  &lt;link rel="stylesheet" href="base.css"&gt;
+  &lt;script src="packages/polymer/boot.js"&gt;&lt;/script&gt;
+  &lt;title&gt;Dart • TodoMVC&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;todo-app&gt;&lt;/todo-app&gt;  &lt;!--App--&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</div>
+<div class="step slide border hideinactive">
+  <h3>Polymer Elements</h3>
+  <pre class="prettyprint lang-html" style="font-size:30px; border:none; margin-left:-40px;">
+&lt;polymer-element name="click-counter"&gt;
+  &lt;template&gt;
+    &lt;button on-click="increment"&gt;Click Me&lt;/button&gt;
+    &lt;p&gt;You clicked the button {{count}} times.&lt;/p&gt;
+  &lt;/template&gt;
+  &lt;script 
+     type="application/dart" 
+     src="click_counter.dart"&gt;&lt;/script&gt;
+&lt;/polymer-element&gt;
+  </pre>
+</div>
+
+<div class="step slide border hideinactive">
+  <h3>Polymer Elements</h3>
+  <pre class="prettyprint lang-dart" style="font-size:30px; border:none; margin-left:-40px;">
+import 'package:polymer/polymer.dart';
+import 'dart:html';
+
+@CustomTag('click-counter')
+class ClickCounterElement 
+    extends PolymerElement with ObservableMixin {
+  @observable int count = 0;
+  
+  void increment(Event e, var detail, Node target){
+    count += 1;
+  }
+}
+  </pre>
+</div>
+
+
+<div class="step slide border hideinactive">
+  <img class="right logo" src="dartbanner.jpg"/>
+  Why Dart appeals to me...
+  <h3 style="padding-top:30px;"><strong>Fast</strong> applications</h3>
+  <h3 style="padding-top:50px;"><strong>Familiar</strong> for developers</h3><br/>
+  <h3><strong>Communicating intent</strong> through code, to <strong>humans</strong> and <strong> tools</strong>.</h3><br />
+  <h3>Web Components for <strong>modular</strong> working with <strong>teams</strong>.</h3><br />
+  <span class="right">Could it be another tool in your toolbox...?</span>
+</div>
+
+<div class="step slide border hideinactive">
+  <h3>Find out more...</h3>
+  <img class="right logo" src="dartbanner.jpg"/>
+  <ul>
+    <li style='color:blue'>www.dartlang.org</li>
+    <li><strong>#dartlang</strong> on G+ or Twitter</li>
+    <li><strong>Dartisans</strong> group on G+</li>
+    <li>+Chris Buckett</li>
+    <li>@chrisbuckett</li>
+  </ul>
+  <img class="right logo"  style="margin-top:-210px" src="dartinaction.png" height="300px"/>
+  Thankyou!
+</div>
+
+
+<div class="step slide border hideinactive">
+  <h3>Find out more...</h3>
+  <img class="right logo" src="dartbanner.jpg"/>
+  <ul>
+    <li style='color:blue'>www.dartlang.org</li>
+    <li><strong>#dartlang</strong> on G+ or Twitter</li>
+    <li><strong>Dartisans</strong> group on G+</li>
+    <li>+Chris Buckett</li>
+    <li>@chrisbuckett</li>
+  </ul>
+  <img class="right logo"  style="margin-top:-210px" src="dartinaction.png" height="300px"/>
+  Thankyou!
+</div>
+
+<!-- Slide: Overview -->
+<!--<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+</div>-->
+
+</div><!-- end impress -->
+<!--<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>-->
+
+<script src="impress.js"></script>
+<script>
+  var api = impress();
+  api.init();
+</script>
+<script>prettyPrint();</script>
+</body>
+</html>

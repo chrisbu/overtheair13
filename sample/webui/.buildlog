@@ -1,0 +1,1565 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 523 ms
+Total time                                                   -- 552 ms
+build.dart finished [1401 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.dart --changed=web\out\webui.css --changed=web\out\webui.dart --cha...
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 2767 ms
+Total time                                                   -- 2862 ms
+build.dart finished [4515 ms]
+
+---
+build.dart --machine --changed=web\out\webui.css --changed=web\out\webui.dart --changed=web\out\webui.dart.map ...
+Total time                                                   -- 167 ms
+build.dart finished [2184 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html --removed=web\mdv_demo.dart
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 726 ms
+Total time                                                   -- 760 ms
+build.dart finished [1898 ms]
+
+---
+build.dart --machine --changed=web\out\webui.css --changed=web\out\webui.dart --changed=web\out\webui.dart.map ...
+Total time                                                   --  39 ms
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 653 ms
+Total time                                                   -- 735 ms
+build.dart finished [1760 ms]
+
+---
+build.dart --machine --changed=web\out\webui.css --changed=web\out\webui.dart --changed=web\out\webui.dart.map ...
+Total time                                                   --  44 ms
+build.dart finished [883 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web\\mdv_demo.html","message":"Unexpected end tag (input). Ignored.","line":8,"charStart":174,"charEnd":182}}]
+Total time spent on web/webui.html                           -- 656 ms
+Total time                                                   -- 739 ms
+build.dart finished [1666 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  30 ms
+build.dart finished [1432 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web\\mdv_demo.html","message":"Unexpected end tag (input). Ignored.","line":8,"charStart":174,"charEnd":182}}]
+Total time spent on web/webui.html                           -- 553 ms
+Total time                                                   -- 593 ms
+build.dart finished [1464 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [1503 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 465 ms
+Total time                                                   -- 496 ms
+build.dart finished [1227 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 461 ms
+Total time                                                   -- 491 ms
+build.dart finished [1263 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  46 ms
+build.dart finished [1058 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 593 ms
+Total time                                                   -- 627 ms
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  45 ms
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 576 ms
+Total time                                                   -- 652 ms
+build.dart finished [1695 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  67 ms
+build.dart finished [1134 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 985 ms
+Total time                                                   -- 1046 ms
+build.dart finished [2308 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  39 ms
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 878 ms
+Total time                                                   -- 913 ms
+build.dart finished [2098 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  33 ms
+build.dart finished [916 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web\\mdv_demo.html","message":"Unknown two-way binding attribute text. Ignored.","line":8,"charStart":142,"charEnd":174}}]
+Total time spent on web/webui.html                           -- 744 ms
+Total time                                                   -- 831 ms
+build.dart finished [2208 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 484 ms
+Total time                                                   -- 514 ms
+build.dart finished [1283 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  37 ms
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 686 ms
+Total time                                                   -- 756 ms
+build.dart finished [1954 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  62 ms
+build.dart finished [1178 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 490 ms
+Total time                                                   -- 520 ms
+build.dart finished [1340 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [1559 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Unexpected end tag (x-click-counter). Ignored.","line":19,"charStart":402,"charEnd":420}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"End tag (div) seen too early. Expected other end tag.","line":20,"charStart":425,"charEnd":431}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"custom element with tag name x-click-counter\" not found.","line":18,"charStart":332,"charEnd":395}}]
+Total time spent on web/webui.html                           -- 555 ms
+Total time                                                   -- 590 ms
+build.dart finished [1500 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  33 ms
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Trailing solidus not allowed on element x-mdv-demo","line":14,"charStart":263,"charEnd":277}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Unexpected end tag (x-click-counter). Ignored.","line":19,"charStart":391,"charEnd":409}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"End tag (div) seen too early. Expected other end tag.","line":20,"charStart":414,"charEnd":420}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Unexpected end tag (x-mdv-demo). Missing end tag (body).","line":24,"charStart":540,"charEnd":547}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"custom element with tag name x-click-counter\" not found.","line":18,"charStart":321,"charEnd":384}}]
+Total time spent on web/webui.html                           -- 594 ms
+Total time                                                   -- 632 ms
+build.dart finished [1588 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [888 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Trailing solidus not allowed on element x-mdv-demo","line":14,"charStart":263,"charEnd":277}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Unexpected end tag (x-mdv-demo). Missing end tag (body).","line":24,"charStart":539,"charEnd":546}}]
+Total time spent on web/webui.html                           -- 602 ms
+Total time                                                   -- 649 ms
+build.dart finished [1652 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  73 ms
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Trailing solidus not allowed on element x-mdv-demo","line":14,"charStart":263,"charEnd":277}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Unexpected end tag (x-mdv-demo). Missing end tag (body).","line":23,"charStart":538,"charEnd":545}}]
+Total time spent on web/webui.html                           -- 618 ms
+Total time                                                   -- 692 ms
+build.dart finished [2477 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   -- 117 ms
+build.dart finished [1070 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Trailing solidus not allowed on element x-mdv-demo","line":14,"charStart":263,"charEnd":277}}]
+[{"method":"warning","params":{"file":"web/webui.html","message":"Unexpected end tag (x-mdv-demo). Missing end tag (body).","line":23,"charStart":494,"charEnd":501}}]
+Total time spent on web/webui.html                           -- 614 ms
+Total time                                                   -- 767 ms
+build.dart finished [1834 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  31 ms
+build.dart finished [1014 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 556 ms
+Total time                                                   -- 593 ms
+build.dart finished [1540 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  32 ms
+build.dart finished [895 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1518 ms
+Total time                                                   -- 1559 ms
+build.dart finished [2694 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  34 ms
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 693 ms
+Total time                                                   -- 903 ms
+build.dart finished [2776 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [1356 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 844 ms
+Total time                                                   -- 910 ms
+build.dart finished [2016 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  57 ms
+build.dart finished [992 ms]
+
+---
+build.dart --machine --changed=web\xclickcounter.dart
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 572 ms
+Total time                                                   -- 609 ms
+build.dart finished [1702 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [1976 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 576 ms
+Total time                                                   -- 628 ms
+build.dart finished [1713 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  46 ms
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 681 ms
+Total time                                                   -- 760 ms
+build.dart finished [1818 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  55 ms
+build.dart finished [932 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 672 ms
+Total time                                                   -- 756 ms
+build.dart finished [1838 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  64 ms
+build.dart finished [1111 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  24 ms
+build.dart finished [758 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  29 ms
+build.dart finished [894 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  25 ms
+build.dart finished [835 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  29 ms
+build.dart finished [1007 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  24 ms
+build.dart finished [816 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  32 ms
+build.dart finished [1250 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  33 ms
+build.dart finished [1189 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  62 ms
+build.dart finished [1441 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  24 ms
+build.dart finished [821 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 909 ms
+Total time                                                   -- 943 ms
+build.dart finished [1967 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  30 ms
+build.dart finished [1013 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1296 ms
+Total time                                                   -- 1422 ms
+build.dart finished [2532 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [1259 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1244 ms
+Total time                                                   -- 1287 ms
+build.dart finished [2545 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  47 ms
+build.dart finished [1112 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 627 ms
+Total time                                                   -- 734 ms
+build.dart finished [1792 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [1034 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 471 ms
+Total time                                                   -- 500 ms
+build.dart finished [1266 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  30 ms
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 677 ms
+Total time                                                   -- 756 ms
+build.dart finished [1692 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 555 ms
+Total time                                                   -- 588 ms
+build.dart finished [1449 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  44 ms
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 619 ms
+Total time                                                   -- 688 ms
+build.dart finished [1790 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  55 ms
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 656 ms
+Total time                                                   -- 713 ms
+build.dart finished [1689 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  46 ms
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":471,"charEnd":520}}]
+Total time spent on web/webui.html                           -- 421 ms
+Total time                                                   -- 471 ms
+build.dart finished [1401 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":478,"charEnd":527}}]
+Total time spent on web/webui.html                           -- 428 ms
+Total time                                                   -- 475 ms
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":487,"charEnd":536}}]
+Total time spent on web/webui.html                           -- 534 ms
+Total time                                                   -- 594 ms
+build.dart finished [1561 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":25,"charStart":488,"charEnd":537}}]
+Total time spent on web/webui.html                           -- 425 ms
+Total time                                                   -- 457 ms
+build.dart finished [1350 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":25,"charStart":495,"charEnd":544}}]
+Total time spent on web/webui.html                           -- 434 ms
+Total time                                                   -- 481 ms
+build.dart finished [1414 ms]
+
+---
+build.dart --machine --removed=web\out\mdv_demo.html.dart --removed=web\out\mdv_demo.html.dart.map --removed=we...
+Total time                                                   --  40 ms
+build.dart finished [925 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":25,"charStart":489,"charEnd":538}}]
+Total time spent on web/webui.html                           -- 418 ms
+Total time                                                   -- 469 ms
+build.dart finished [1326 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":488,"charEnd":537}}]
+Total time spent on web/webui.html                           -- 473 ms
+Total time                                                   -- 508 ms
+build.dart finished [1604 ms]
+
+---
+build.dart --machine --changed=web\webui.dart
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":488,"charEnd":537}}]
+Total time spent on web/webui.html                           -- 362 ms
+Total time                                                   -- 392 ms
+build.dart finished [1158 ms]
+
+---
+build.dart --machine --changed=web\webui.dart
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":488,"charEnd":537}}]
+Total time spent on web/webui.html                           -- 360 ms
+Total time                                                   -- 392 ms
+build.dart finished [1165 ms]
+
+---
+build.dart --machine --changed=web\webui.dart
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":488,"charEnd":537}}]
+Total time spent on web/webui.html                           -- 408 ms
+Total time                                                   -- 441 ms
+build.dart finished [1478 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":25,"charStart":489,"charEnd":538}}]
+Total time spent on web/webui.html                           -- 417 ms
+Total time                                                   -- 450 ms
+build.dart finished [1425 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":27,"charStart":497,"charEnd":546}}]
+Total time spent on web/webui.html                           -- 403 ms
+Total time                                                   -- 441 ms
+build.dart finished [1426 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"there should be only one dart script tag in the top-level HTML page.","line":24,"charStart":488,"charEnd":537}}]
+Total time spent on web/webui.html                           -- 679 ms
+Total time                                                   -- 741 ms
+build.dart finished [1796 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1010 ms
+Total time                                                   -- 1138 ms
+build.dart finished [2729 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [1346 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 480 ms
+Total time                                                   -- 510 ms
+build.dart finished [1344 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  57 ms
+build.dart finished [890 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 623 ms
+Total time                                                   -- 674 ms
+build.dart finished [1813 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [999 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1195 ms
+Total time                                                   -- 1243 ms
+build.dart finished [3091 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  65 ms
+build.dart finished [1479 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.dart
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web\\xclickcounter.html","message":"exception while reading file \"web\\xclickcounter.dart\", original message:\n AsyncError: 'FileIOException: Cannot open file 'web\\xclickcounter.dart' (OS Error: The system cannot find the file specified.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1049:9)\n#1      _ThenFuture._sendValue (dart:async:463:24)\n#2      _FutureImpl._setValue (dart:async:361:26)\n#3      _CompleterImpl.complete (dart:async:190:21)\n#4      _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:106:27)\n#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:81:92)\n\n","line":12,"charStart":298,"charEnd":355}}]
+Total time spent on web/webui.html                           -- 526 ms
+Total time                                                   -- 560 ms
+build.dart finished [1801 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"error","params":{"file":"web/webui.html","message":"exception while reading file \"web\\xclickcounter.html\", original message:\n AsyncError: 'FileIOException: Cannot open file 'web\\xclickcounter.html' (OS Error: The system cannot find the file specified.\r\n, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1049:9)\n#1      _ThenFuture._sendValue (dart:async:463:24)\n#2      _FutureImpl._setValue (dart:async:361:26)\n#3      _CompleterImpl.complete (dart:async:190:21)\n#4      _SendPortImpl.call.<anonymous closure> (dart:isolate-patch:106:27)\n#5      _ReceivePortImpl._handleMessage (dart:isolate-patch:81:92)\n\n","line":10,"charStart":189,"charEnd":238}}]
+Total time spent on web/webui.html                           -- 621 ms
+Total time                                                   -- 663 ms
+build.dart finished [1955 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 438 ms
+Total time                                                   -- 468 ms
+build.dart finished [1226 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  31 ms
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 902 ms
+Total time                                                   -- 937 ms
+build.dart finished [2080 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   -- 211 ms
+build.dart finished [1137 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 614 ms
+Total time                                                   -- 652 ms
+build.dart finished [1587 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  33 ms
+build.dart finished [926 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 659 ms
+Total time                                                   -- 693 ms
+build.dart finished [1652 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  31 ms
+build.dart finished [934 ms]
+
+---
+build.dart --machine --removed=web\webui.dart
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 596 ms
+Total time                                                   -- 631 ms
+build.dart finished [1566 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  40 ms
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 664 ms
+Total time                                                   -- 751 ms
+build.dart finished [1799 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  73 ms
+build.dart finished [1129 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  25 ms
+build.dart finished [817 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 504 ms
+Total time                                                   -- 535 ms
+build.dart finished [1304 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  58 ms
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 679 ms
+Total time                                                   -- 736 ms
+build.dart finished [1802 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  57 ms
+build.dart finished [1033 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 500 ms
+Total time                                                   -- 530 ms
+build.dart finished [1275 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  47 ms
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web\\mdv_demo.html","message":"Unexpected character after attribute value.","line":7,"charStart":126,"charEnd":150}}]
+[{"method":"warning","params":{"file":"web\\mdv_demo.html","message":"Expected closing tag. Unexpected character '-' found.","line":8,"charStart":201,"charEnd":204}}]
+Total time spent on web/webui.html                           -- 701 ms
+Total time                                                   -- 730 ms
+build.dart finished [1544 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   -- 112 ms
+build.dart finished [1278 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+[{"method":"warning","params":{"file":"web\\mdv_demo.html","message":"Expected closing tag. Unexpected character '-' found.","line":8,"charStart":200,"charEnd":203}}]
+Total time spent on web/webui.html                           -- 652 ms
+Total time                                                   -- 752 ms
+build.dart finished [1680 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 523 ms
+Total time                                                   -- 588 ms
+build.dart finished [1445 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_dem...
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 819 ms
+Total time                                                   -- 911 ms
+build.dart finished [2289 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  70 ms
+build.dart finished [1197 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1268 ms
+Total time                                                   -- 1346 ms
+build.dart finished [2554 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  72 ms
+build.dart finished [1097 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 514 ms
+Total time                                                   -- 544 ms
+build.dart finished [1322 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  27 ms
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 514 ms
+Total time                                                   -- 543 ms
+build.dart finished [1311 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  31 ms
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 501 ms
+Total time                                                   -- 532 ms
+build.dart finished [1311 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  33 ms
+build.dart finished [916 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1051 ms
+Total time                                                   -- 1090 ms
+build.dart finished [2051 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  30 ms
+build.dart finished [984 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 669 ms
+Total time                                                   -- 705 ms
+build.dart finished [1549 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  33 ms
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 537 ms
+Total time                                                   -- 565 ms
+build.dart finished [1322 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 609 ms
+Total time                                                   -- 644 ms
+build.dart finished [1596 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 527 ms
+Total time                                                   -- 557 ms
+build.dart finished [1891 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [1192 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 863 ms
+Total time                                                   -- 1747 ms
+build.dart finished [3010 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  40 ms
+build.dart finished [1422 ms]
+
+---
+build.dart --machine --changed=web\out\webui.html_bootstrap.dart.js --changed=web\out\webui.html_bootstrap.dart...
+Total time                                                   --  24 ms
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 523 ms
+Total time                                                   -- 554 ms
+build.dart finished [1288 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   -- 773 ms
+build.dart finished [2455 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  23 ms
+build.dart finished [803 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  30 ms
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=web\out\webui.html_bootstrap.dart.js --changed=web\out\webui.html_bootstrap.dart...
+Total time                                                   --  24 ms
+build.dart finished [850 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 563 ms
+Total time                                                   -- 594 ms
+build.dart finished [1376 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  41 ms
+build.dart finished [1014 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 950 ms
+Total time                                                   -- 997 ms
+build.dart finished [2423 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  32 ms
+build.dart finished [1520 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 502 ms
+Total time                                                   -- 531 ms
+build.dart finished [1273 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  58 ms
+build.dart finished [1240 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 566 ms
+Total time                                                   -- 597 ms
+build.dart finished [1405 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1041 ms
+Total time                                                   -- 1083 ms
+build.dart finished [3378 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  80 ms
+build.dart finished [1082 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1153 ms
+Total time                                                   -- 1205 ms
+build.dart finished [2340 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  27 ms
+build.dart finished [1258 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 509 ms
+Total time                                                   -- 539 ms
+build.dart finished [1286 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  27 ms
+build.dart finished [1041 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  24 ms
+build.dart finished [781 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 497 ms
+Total time                                                   -- 526 ms
+build.dart finished [1296 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  55 ms
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1050 ms
+Total time                                                   -- 1092 ms
+build.dart finished [2500 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  45 ms
+build.dart finished [1003 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 980 ms
+Total time                                                   -- 1149 ms
+build.dart finished [2724 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 2043 ms
+Total time                                                   -- 2116 ms
+build.dart finished [3802 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  36 ms
+build.dart finished [1334 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1071 ms
+Total time                                                   -- 1122 ms
+build.dart finished [2779 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  27 ms
+build.dart finished [1465 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 499 ms
+Total time                                                   -- 531 ms
+build.dart finished [1315 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   -- 101 ms
+build.dart finished [1381 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 887 ms
+Total time                                                   -- 922 ms
+build.dart finished [2647 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  27 ms
+build.dart finished [1157 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 494 ms
+Total time                                                   -- 523 ms
+build.dart finished [1284 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [892 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 922 ms
+Total time                                                   -- 1268 ms
+build.dart finished [2474 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  51 ms
+build.dart finished [1107 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 861 ms
+Total time                                                   -- 968 ms
+build.dart finished [2204 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [1027 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1019 ms
+Total time                                                   -- 1085 ms
+build.dart finished [3268 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1100 ms
+Total time                                                   -- 1136 ms
+build.dart finished [2924 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [876 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 734 ms
+Total time                                                   -- 767 ms
+build.dart finished [1912 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  60 ms
+build.dart finished [1957 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 495 ms
+Total time                                                   -- 526 ms
+build.dart finished [1267 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1206 ms
+Total time                                                   -- 1315 ms
+build.dart finished [2720 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [1631 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 491 ms
+Total time                                                   -- 520 ms
+build.dart finished [1298 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  44 ms
+build.dart finished [975 ms]
+
+---
+build.dart --machine --changed=web\out\webui.html_bootstrap.dart.js --changed=web\out\webui.html_bootstrap.dart...
+Total time                                                   --  25 ms
+build.dart finished [904 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 504 ms
+Total time                                                   -- 534 ms
+build.dart finished [1315 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  30 ms
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=web\out\webui.html_bootstrap.dart.js --changed=web\out\webui.html_bootstrap.dart...
+Total time                                                   --  28 ms
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 511 ms
+Total time                                                   -- 541 ms
+build.dart finished [1396 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  62 ms
+build.dart finished [1026 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 526 ms
+Total time                                                   -- 554 ms
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  30 ms
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 1683 ms
+Total time                                                   -- 1780 ms
+build.dart finished [2955 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  60 ms
+build.dart finished [1148 ms]
+
+---
+build.dart --machine --changed=web\out\webui.html_bootstrap.dart.js --changed=web\out\webui.html_bootstrap.dart...
+Total time                                                   --  31 ms
+build.dart finished [1406 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 518 ms
+Total time                                                   -- 545 ms
+build.dart finished [1300 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  60 ms
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 535 ms
+Total time                                                   -- 565 ms
+build.dart finished [1443 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  29 ms
+build.dart finished [1251 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 512 ms
+Total time                                                   -- 543 ms
+build.dart finished [1323 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  28 ms
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 495 ms
+Total time                                                   -- 528 ms
+build.dart finished [1293 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  30 ms
+build.dart finished [1044 ms]
+
+---
+build.dart --machine --full
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 260 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [841 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+'package:analyzer_experimental/src/generated/java_core.dart': Error: line 260 pos 30: cannot resolve class name 'Collection' from 'ListWrapper'
+class ListWrapper<E> extends Collection<E> implements List<E> {
+                             ^
+build.dart finished [699 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  24 ms
+build.dart finished [850 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 543 ms
+Total time                                                   -- 573 ms
+build.dart finished [1428 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  25 ms
+build.dart finished [844 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 530 ms
+Total time                                                   -- 559 ms
+build.dart finished [1323 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  33 ms
+build.dart finished [797 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 601 ms
+Total time                                                   -- 632 ms
+build.dart finished [1457 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [928 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 603 ms
+Total time                                                   -- 633 ms
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  25 ms
+build.dart finished [940 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 531 ms
+Total time                                                   -- 560 ms
+build.dart finished [1318 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  24 ms
+build.dart finished [765 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 547 ms
+Total time                                                   -- 577 ms
+build.dart finished [1348 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [773 ms]
+
+---
+build.dart --machine --changed=web\mdv_demo.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 530 ms
+Total time                                                   -- 560 ms
+build.dart finished [1652 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [851 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 539 ms
+Total time                                                   -- 567 ms
+build.dart finished [1379 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  25 ms
+build.dart finished [827 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 613 ms
+Total time                                                   -- 645 ms
+build.dart finished [1422 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [776 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  27 ms
+build.dart finished [883 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  25 ms
+build.dart finished [877 ms]
+
+---
+build.dart --machine --changed=web\webui.css
+Total time                                                   --  23 ms
+build.dart finished [844 ms]
+
+---
+build.dart --machine --changed=web\out\webui.css
+Total time                                                   --  25 ms
+build.dart finished [805 ms]
+
+---
+build.dart --machine --changed=web\webui.html
+[{"method":"mapping","params":{"from":"web/webui.html","to":"web\\out\\webui.html"}}]
+Total time spent on web/webui.html                           -- 650 ms
+Total time                                                   -- 680 ms
+build.dart finished [1493 ms]
+
+---
+build.dart --machine --changed=web\out\mdv_demo.html.dart --changed=web\out\mdv_demo.html.dart.map --changed=we...
+Total time                                                   --  26 ms
+build.dart finished [989 ms]
+
+---
+build.dart --machine --full
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/work/dart/projects/overtheair13/sample/webui/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [263 ms]
+

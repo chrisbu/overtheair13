@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <element name="x-mdv-demo" constructor="MdvDemo" extends="div">
+      <template>
+        <style>
+          div { border:3px solid blue; }
+        </style>
+
+        <div>
+          <i>I am an &lt;x-mdv-demo&gt; component</i><br />
+          {{ message }}<br/>
+          <input bind-value="message">
+        </div>
+      </template>
+
+      <script type="application/dart">
+        import 'package:web_ui/web_ui.dart';
+
+        class MdvDemo extends WebComponent {
+          var message = "Hello World";
+        }
+
+        main() {}
+      </script>
+    </element>
+  </body>
+</html>

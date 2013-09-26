@@ -1,0 +1,14 @@
+Performance:
+
+V8 scored many huge performance leaps over other JavaScript engines when it was launched.
+The V8 designers don't see a way to make the next huge leap with JavaScript.
+Dart was designed from the start to be a language for a fast VM.
+- Snapshotting - uses browser cache mechanism to store the a representation of the heap after initialization. 
+
+DeltaBlue: one-way constraint solver.
+The main focus in DeltaBlue is on polymorphism and object-oriented programming.
+
+Dart VM: Dart benchmark harness on the Dart VM
+Dart2js compiles the harness to JavaScript and run in V8.
+V8 generated using same benchmarks written in JavaScript and same harness in JavaScript
+

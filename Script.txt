@@ -1,0 +1,136 @@
+----------------------Slide 1:
+Hello, thanks for having me.  
+My name is Chris Buckett 
+I'm the author of Dart in Action.
+Please stop me if you have any questions
+
+
+
+-----------------------Slide 2:
+I work for a company called Entity, and yes, I'll admit it, 
+we build enterprise software, usually single page apps delivered via a web browser 
+
+By enterprise, I mean software that:
+- solves line-of-business problems
+- might communicate with existing legacy systems
+- is invariably built despite corporate politics within the enterprise
+
+I've found that there are certain constraints when building this type of software.
+
+------------------------Slide 3:
+3a: Multiple Teams: 
+- Communicating with legacy systems mean that different system experts might be writing interface code.
+- Corporate politics might mean that to get buy-in to the project, different teams want a piece of the work
+- Might not be at the same site, or even same time-zone.
+
+3b: Modular design:
+- Team work tends to mean a modular design, enabling different pieces of work to be farmed out to different teams
+- One of the side-effects of this is that it is no-longer feasible to hold the whole program in your head, unless you grok all the code produced by other teams.  Trust the other teams.
+
+3c: Framework:
+- There is a good chance that the enterprise you are going in to has standardized on one framework or another.  
+- Or you have persuaded the enterprise to use your favorite framework.
+- This means that either way, there's a good chance that there's a team that's not familiar with this or that framework.
+
+3d: Longevity
+- or Maintainability over time and people
+- we have a .net 2 web application written in vb.net back in 2007 that still gets monthly change requests as the business changes.  We're likely to have more changes for the next 5 years.  The people working on it today aren't the  same people who wrote it originally, and the people who are working on it in 5 years time won't be the same people who wre working on it today.  
+
+------------------------Slide 4
+Common Problem
+
+
+------------------------Slide 5:
+Communication.
+
+------------------------Slide 6:
+
+Teams & Modules: 
+- Used to be big-design-up-front
+Dev Teams need to communicate with each other, including in code.
+In some idealist scenario (that they used to call "big design up front"), the system design would be set in stone, passed to all the teams, who would then produce software to meet that design.
+
+These days, this happens in a more agile way, perhaps by sharing a common module interface, and teams creating their various parts, (one consuming data, one producing data).  As the design evolves, so do those interfaces.  Domain model objects might get new fields.  Service functions have their parameter types changed.  
+
+These changes need to be communicated across teams, either formally (via documentation), or informally (just in the code).
+
+Frameworks:
+Learning new frameworks takes time.  Especially if it's a framework that you've not chosen.  Framework designers communicate via API docs, tutorials, or comments in the unminified source.
+
+Server-side, it's a bit easier for the framework desginer to communicate with the developer, especially when they're using an IDE with autocomplete and doc comments, such as javadoc.  Can an instance of class Foo output itself as XML?  Ctrl+Space - aah, theres a toXML method.  Oh, and the doc comments indicate the input and output.
+
+But what about version changes.  In a language like JavaScript You need to trust the framework designer to either maintain backwards compatability, or provide enough checks in their code to verify the input.  
+Function Foo now takes a Customer object instead of an Order object?  When did that change?
+
+Once again, server-side, tools can pick up these changes near instantly, by statically analysing the code.  Client side, though - let's hope you've got good unit and integration test coverage (and the processes in place to ensure that you have good test coverage).
+
+Finally, Longevitiy, or maintainability.  In my experience, the junior programmers get the joyous task of maintaining existing apps.  By definition, they might not have the same experience with the existing code-base.  By letting tools do some of the heavy lifting, it reduces the chance for error.
+
+These problems are largely solved on the server-side
+but are appearing on the client-side
+
+------------------------ Slide 7:
+Problem solved?
+
+Yes, type systems, static analysis, build servers, IDEs all do some of the heavy lifting.  Why rely on the falability of our brains to remember that function foo takes parameter X of type Customer when the tool can do this for us.
+
+Solved on the browser?
+
+Yes, partly.
+Slide
+
+-----------------  8:
+Turn to the Dart Side
+
+---------------- 17: Libraries
+
+Two senses of the word.  
+Existing libraries and packages that come with dart out of the box
+Ability to create our own libraries and packages
+
+----------------- 18: Own libraries
+You can create your own libraries and packages
+
+
+----------------- 19: Existing libraries: html
+html: 
+Show running, in Firefox
+
+----------------- 20: Existing libraries: io
+io:
+Show running
+
+------------------ 21: Existing libraries: others
+crypto
+math
+async
+indexed_db
+unittest
+
+
+----------------- 22: Pub: The package manager
+Upload and share opensouce libraries
+similar to maven, nuget, npm, gems
+
+----------------- 23:  What else is in the box?
+Tools:
+
+
+----------------- 24: Tools
+Dart Editor
+- show refactoring
+- show autocomplete
+Dartium
+- Debugger
+Dart2js
+- dart2js
+DartDoc
+- show api.dartlang.org
+Dart Analyzer
+- command line
+
+----------------- 25: Web UI
+Web UI
+
+MDV, Web Components
+
